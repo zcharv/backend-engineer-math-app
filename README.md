@@ -18,12 +18,14 @@ sqlite> SELECT * FROM employees;
 
 Create an API with an endpoint `/pvalue` that:
 * reads the employee data for employees belonging to a specified department from the `employees.db` SQLite database
-* uses the employee data to run an OLS model with independent variables `gender`, `tenure`, and `performance` and dependent variable `compensation` that includes all employees in the specified department
+* uses the employee data to run an OLS regression with independent variables `gender`, `tenure`, and `performance` and dependent variable `compensation` that includes all employees in the specified department
 * returns the OLS model pvalue associated with gender rounded to 3 decimal places in a JSON response like the one below:
 
 ```
 {"pvalue": 0.021}
 ```
+
+If you're unfamiliar with OLS regressions, you may find [this resource](https://soc.utah.edu/sociology3112/regression.php) helpful.
 
 ## Requirements
 
