@@ -56,7 +56,7 @@ If you're unfamiliar with OLS regressions, you may find [this resource](https://
 ## Notes
 
 - Keep it simple.
-- We expect this to take less than ~1.5 hours, please try and limit your effort to that window.
+- We expect this to take ~1-2 hours, please try and limit your effort to that window.
 - If the API works, and returns what we requested, it's a success!
 - We truly value your time and just want a basic benchmark and common piece of code to use in future interviews.
 - If we bring you in for the next round of interviews we'll ask you some questions about your submission and also expand on it.
